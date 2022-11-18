@@ -1,0 +1,13 @@
+# VSCode
+.vscode
+*.code-workspace
+
+# Databases
+*.sqlite3
+
+# Other
+.gitignore
+
+# Python
+__pycache__
+

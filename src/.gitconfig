@@ -1,0 +1,15 @@
+[alias]
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+        logbase  = log --graph --abbrev-commit --date=short --decorate=short\
+             --format=format:'%C(blue)%h %C(green)%ad %C(white)%<(70,trunc)%s %C(red)—[ %C(yellow)%ar %C(white)by %C(magenta)%an %C(red)]%C(bold yellow)%d%C(reset)'
+        l        = !"git logbase --first-parent"
+        ll       = !"git logbase"
+        lb       = !"git logbase --all"
+        lb5   = !"git logbase --all -n 5"
+        lll      = !"git logbase --stat"
+        llb      = !"git logbase --stat --all"
+[core]
+        pager = less -F -X
+	excludesfile = /Users/austin/.gitignore_global
+

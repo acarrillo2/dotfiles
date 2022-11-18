@@ -9,4 +9,16 @@ For example:
 ```
 ln -s /Users/austin/workspace/dotfiles/src/.zshrc ~/.zshrc
 ```
+3. Set up `~/.gitconfig.local` for all secret keys and personal information
+
+For example:
+```
+[user]
+        name = Austin Carrillo
+        email = email@email.com
+
+[github]
+	user = acarrillo2
+	token = SUPER_SECRET
+```
 

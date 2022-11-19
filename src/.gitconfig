@@ -12,4 +12,7 @@
 [core]
         pager = less -F -X
 	excludesfile = /Users/austin/.gitignore_global
+[include]
+	# For user-specific details I don't want on GitHub
+	path = ~/.gitconfig.local
 

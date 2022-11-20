@@ -7,8 +7,13 @@ Storing my personal dot files for convenience in case I need to set up a new wor
 
 For example:
 ```
-ln -s /Users/austin/workspace/dotfiles/src/.zshrc ~/.zshrc
+ln -s ~/workspace/dotfiles/src/.zshrc ~/.zshrc
 ```
+OR
+```
+ln -s ~/workspace/dotfiles/src/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+```
+
 3. Set up `~/.gitconfig.local` for all secret keys and personal information
 
 For example:

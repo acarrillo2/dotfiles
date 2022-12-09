@@ -97,4 +97,5 @@ source ~/secrets.sh
 # Personal aliases
 alias sshDellDesk="ssh austin@192.168.4.74"
 alias npm-dev="npm run build && npm run start:dev"
+alias bot_ping="/Users/austin/workspace/Scripts/src/Scripts/shell/ping.sh"
 

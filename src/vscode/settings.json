@@ -2,5 +2,10 @@
     "files.autoSave": "afterDelay",
     "editor.rulers": [
     120
+    ],
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+    "java.project.referencedLibraries" : [
+        "lib/**/*.jar"
     ]
 }
+
